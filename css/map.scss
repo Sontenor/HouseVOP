@@ -16,6 +16,10 @@
 .map__subtitle {
 	@extend %h2style;
 	margin-bottom: 100px;
+
+	@media screen and (min-width: 1200px) {
+		text-align: left;
+	}
 }
 .map {
 	margin-bottom: 80px;

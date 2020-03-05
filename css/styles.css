@@ -288,6 +288,9 @@ a {
 
 .map__subtitle {
   margin-bottom: 100px; }
+  @media screen and (min-width: 1200px) {
+    .map__subtitle {
+      text-align: left; } }
 
 .map {
   margin-bottom: 80px; }
@@ -304,7 +307,8 @@ a {
         margin-bottom: 20px; } }
     @media screen and (min-width: 1200px) {
       .questions__subtitle {
-        margin-bottom: 71px; } }
+        margin-bottom: 71px;
+        text-align: left; } }
   .questions__input {
     margin: 0 auto; }
   @media screen and (min-width: 768px) {
