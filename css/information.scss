@@ -1,0 +1,77 @@
+.information {
+	background-image: url(../img/Rectangle.jpg);
+
+	&__text {
+		padding-bottom: 50px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 24px;
+		color: #fff;
+
+		@media screen and (min-width: 992px) {
+			text-align: left;
+		}
+	}
+
+	&__title {
+		@extend %h2style;
+		margin: 50px 0;
+	}
+
+	&__form {
+		margin-top: 50px;
+	}
+
+	&__input {
+		@extend %styleform;
+		text-align: center;
+		margin: 0 auto;
+
+		@media screen and (min-width: 768px) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__formWrapper {
+		padding-bottom: 35px;
+		text-align: center;
+
+		@media screen and (min-width: 992px) {
+			padding-left: 91px;
+		}
+
+		@media screen and (min-width: 1200px) {
+			padding-top: 90px;
+			padding-left: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	&__formText {
+		font-size: 13px;
+		line-height: 16px;
+		text-align: center;
+		color: #BEBEBE;
+		padding-top: 10px;
+
+		@media screen and (min-width: 992px) {
+			margin-left: 111px;
+		}
+
+		@media screen and (min-width: 1200px) {
+			margin-left: 0;
+		}
+	}
+
+	&__formWrapper2 {
+		text-align: center;
+		padding-bottom: 100px;
+	}
+
+
+	&__buttom {
+		@extend %stylebutton;
+	}
+
+}
+

@@ -1,0 +1,24 @@
+
+
+.section__map {
+	background: $c-dark;
+}
+.map__content {
+	position: relative;
+}
+
+.map__numeral {
+	position: absolute;
+	top: -18px;
+	left: 36px;
+}
+
+.map__subtitle {
+	@extend %h2style;
+	margin-bottom: 100px;
+}
+.map {
+	margin-bottom: 80px;
+}
+
+

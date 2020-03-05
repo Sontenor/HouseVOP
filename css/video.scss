@@ -1,0 +1,40 @@
+.video__content {
+	background: $c-dark;
+	position: relative;
+}
+
+.video__item {
+	background-image: url(../img/video.jpg);
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 180px;
+
+	@media screen and (min-width: 1200px) {
+		height: 400px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin-top: 100px;
+	}
+}
+
+.video__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	cursor: pointer;
+}
+
+.video__numeral {
+	position: absolute;
+	top: 188px;
+	right: 182px;
+}
+
+
+

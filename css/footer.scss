@@ -1,0 +1,61 @@
+footer {
+	background: #2D343C;
+}
+
+.footer {
+	padding: 60px 0 50px;
+
+	@media screen and (min-width: 576px) {
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin-top: 50px;
+	}
+
+	&__info {
+		color: #fff;
+		// padding-left: 50px;
+		// padding: 20px 0; переделать!!
+
+		@media screen and (min-width: 576px) {
+			display: inline-block;
+			text-align: left;
+
+		}
+	}
+
+	&__socials {
+		padding: 0 9px;
+
+		&:hover {
+			color: #03f;
+			transition: .3s;
+		}
+	}
+
+
+	&__logo {
+		@media screen and (min-width: 576px) {
+			padding-bottom: 20px;
+		}
+	}
+
+		.Colum {
+		@media screen and (min-width: 576px) {
+			width: 28%;
+		}
+
+		@media screen and (min-width: 992px) {
+			width: 25%;
+		}
+	}
+
+	span {
+		color: #D4C17F;
+	}
+}
+
+
+

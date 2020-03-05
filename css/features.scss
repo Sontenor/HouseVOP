@@ -1,0 +1,33 @@
+.features {
+	background: #242B33;
+
+	&__container {
+		margin-top: 194px;
+		text-align: center;
+		position: relative;
+		padding-bottom: 120px;
+	}
+
+	&__content {
+		color: #fff;
+		// width: 21%;
+		// display: inline-block;
+		text-align: center;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 27px;
+		padding-bottom: 50px;
+	}
+
+	&__contentImg {
+		padding-bottom: 23px;
+	}
+
+	&__numeral {
+		position: absolute;
+		bottom: 50px;
+		right: 44px;
+	}
+
+
+}
